@@ -6,10 +6,14 @@ Backend part of Postr application.
 * SpringBoot
 * Lombok
 * Hibernate
-* JPA 
 * Firebase Cloud Messaging
 * Firebase Auth
-* PosrgreSQL
+* PostgreSQL
+#### Push Notifications
+Push notifications are send when:
+* New event is added in user's specified range
+* User received new message
+* Someone commented on followed event
 ### End points with methods
 ### GET
 * Get all comments in given event (id)
