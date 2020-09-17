@@ -15,6 +15,7 @@ Push notifications are send when:
 * User received new message
 * Someone commented on followed event
 ### End points with methods
+Each request must contain auth token
 ### GET
 * Get all comments in given event (id)
 
